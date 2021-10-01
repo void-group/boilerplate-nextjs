@@ -1,11 +1,9 @@
-import { createStitches } from '@stitches/react'
+import { createStitches } from '@stitches/react';
 
 export const { styled: stitchesStyle } = createStitches({
-
   prefix: 'boilerplate-nextJs',
 
   theme: {
-
     colors: {
       primary: '#333333',
       secondary: '#FFFFFF',
@@ -13,7 +11,7 @@ export const { styled: stitchesStyle } = createStitches({
 
     radii: {
       default: '4px',
-      pill: '9999999px'
+      pill: '9999999px',
     },
     space: {
       4: '0.25rem',
@@ -29,7 +27,7 @@ export const { styled: stitchesStyle } = createStitches({
       44: '2.75rem',
       48: '3rem',
       52: '3.25rem',
-      56: '3.5rem'
+      56: '3.5rem',
     },
-  }
-})
+  },
+});
