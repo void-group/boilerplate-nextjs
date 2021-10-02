@@ -10,7 +10,8 @@
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "generate": "yarn plop --plopfile ./generators/plopfile.js"
+    "generate:comp": "yarn plop --plopfile ./generators/component.js",
+    "generate:page": "yarn plop --plopfile ./generators/page.js"
   },
   "lint-staged": {
     "src/**/*": [
