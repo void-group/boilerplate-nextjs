@@ -1,5 +1,5 @@
-import { Button } from '../components/Button';
+import { Main } from '../components/Main';
 
 export default function Home(): JSX.Element {
-  return <Button />;
+  return <Main />;
 }

@@ -1,4 +1,4 @@
-import { globalStyles } from '@/styles/defaultStyles/globalStyles';
+import { globalStyles } from '@styles/defaultStyles/globalStyles';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 

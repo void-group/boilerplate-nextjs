@@ -1,9 +1,9 @@
 import * as S from './styles';
 
-export const Button = () => {
+export const Main = (): JSX.Element => {
   return (
     <S.Container>
-      <button>Button</button>
+      <h1>Main</h1>
     </S.Container>
   );
 };
