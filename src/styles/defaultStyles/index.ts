@@ -1,6 +1,6 @@
 import { createStitches } from '@stitches/react';
 
-export const { styled: stitchesStyle } = createStitches({
+export const { styled: stitchesStyle, css } = createStitches({
   prefix: 'boilerplate-nextJs',
 
   theme: {
