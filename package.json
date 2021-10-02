@@ -9,7 +9,8 @@
     "lint": "eslint src --max-warnings=0",
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js"
   },
   "lint-staged": {
     "src/**/*": [
@@ -19,6 +20,7 @@
   "dependencies": {
     "@stitches/react": "^1.2.1",
     "next": "11.1.2",
+    "next-pwa": "^5.3.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
@@ -41,6 +43,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^7.0.0",
     "lint-staged": "^11.1.2",
+    "plop": "^2.7.4",
     "prettier": "^2.4.1",
     "typescript": "^4.4.3"
   }
