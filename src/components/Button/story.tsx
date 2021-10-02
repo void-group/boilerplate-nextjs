@@ -1,10 +1,5 @@
-import { Meta, Story } from '@storybook/react';
-
 import { Button } from '.';
 
-export default {
-  title: 'Components/Button',
-  component: Button,
-} as Meta;
+export default { component: Button };
 
-export const Default: Story = (args) => <Button {...args} />;
+export const Default = {};
