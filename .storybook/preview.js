@@ -1,5 +1,6 @@
 
 import * as nextImage from 'next/image';
+import { globalStyles } from '@styles/defaultStyles/globalStyles';
 
 
 Object.defineProperty(nextImage, 'default', {
@@ -13,6 +14,7 @@ export const parameters = {
 
 export const decorators = [
   (Story) => {
+    globalStyles();
     return (
       <Story />
     );
